@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ec715f;
+  height: 70px;
+  display: flex;
+  width: 100%;
+}
+.header-group {
+  width: 1024px;
+  display: flex;
+}
+.logo {
+  height: 50px;
+}
+
+.menu-box {
+}
+li {
+  display: list-item;
+}
+.nav {
+  display: flex;
+}
+.nav-list {
+  font-size: 16px;
+  color: #fafafa;
+  padding: 0 30px;
+  list-style: none;
+  line-height: 70px;
+}
+/* =====mainv-isual================*/
+#mv {
+  width: 100%;
+  height: 650px;
+  background-image: url("./img/mv.png");
+  text-align: center;
+}
+
+mv-title {
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+}
+
+.mv-text {
+  font-size: 20px;
+  color: #fafafa;
+  padding-top: 20px;
+}
+
+/* =====portfolio================*/
+#portfolio {
+  background-color: #cecff1;
+}
+.heading {
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 90px;
+  font-family: "Raleway", sans-serif;
+}
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px, auto, 0, auto;
+}
+.heading-text {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+.box-group {
+  width: 920px;
+  padding-bottom: 0 0 90px 0;
+  flex-flow: row wrap;
+  display: flex;
+  margin: 0 auto;
+}
+.box {
+  padding-bottom: 10px;
+  width: 300px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+.box1 {
+  background-image: url(./img/sketch.jpg);
+}
+
+.box2 {
+  background-image: url(./img/websuku.png);
+}
+
+.box3 {
+  background-image: url(./img/write.jpg);
+}
+
+.box4 {
+  background-image: url(./img/webcamp.png);
+}
+
+.box5 {
+  background-image: url(./img/talk.jpg);
+}
+
+.box6 {
+  background-image: url(./img/webcamp-mother.png);
+}
+/* =====future===============*/
+#future {
+  background-position: center;
+  background-position: center;
+}
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  display: flex;
+}
+.strength {
+  width: 320px;
+  font-size: 60px;
+  text-align: center;
+}
+.strength:second-child {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.strength-title {
+  padding: 10px 0 10px 0;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+i {
+  size: 60px;
+}
+.strength-text {
+  font-size: 16px;
+  text-align: left;
+}
+
+/* =====profile===============*/
+#profile {
+  background-color: #eceff1;
+}
+.profile-group {
+  width: 1024px;
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+.left-content {
+  width: 512px;
+}
+.my-face {
+  height: 250px;
+  width: 250px;
+  background-image: url(./img/my-icon.jpg);
+  border-radius: 50%;
+}
+.right-content {
+  width: 512px;
+}
+.description-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.description-text1{
+  font-size:16px;
+  padding-bottom: 20px;
+}
+.description-text{
+  font-size:16px;
+}
+/* =====content===============*/
+.contact-group{
+width: 800px;
+padding-bottom: 30px 0 90px 0;
+display: flex;
+}
+.left-content{
+ width: 170px;
+ margin: 0 auto;
+}
+.right-content{
+  width: 170px;
+  margin: 0 auto;
+}
+.description-title{
+ font-size: 20px;
+ padding-bottom: 5px;
+}
+.description-text:first-child{
+ padding-bottom: 20px;
+}
+.right-contact-content .fa {
+font-size: 50px;
+}
+.right-contact-content .fa .strength:second-child{
+  padding-left:20px;
+  padding-right:  20px;
+}
+
+footer{
+  background-color:coral;
+  line-height: 60px;
+  height: 60px;
+  width: 100%;
+}
+
+.foot{
+  font-size:16px;
+  text-align: center;
+  color:write;
+}
